@@ -1,0 +1,3 @@
+[submodule "dependency/boost"]
+	path = dependency/boost
+	url = https://github.com/boostorg/boost
