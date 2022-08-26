@@ -14,4 +14,5 @@ target_link_libraries(ChatClient Boost::asio Boost::thread)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ChatServer PROPERTY CXX_STANDARD 20)
+  set_property(TARGET ChatClient PROPERTY CXX_STANDARD 20)
 endif()
